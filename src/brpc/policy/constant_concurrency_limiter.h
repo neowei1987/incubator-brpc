@@ -23,6 +23,7 @@
 namespace brpc {
 namespace policy {
 
+//常量限流，就是简单的比较现在的并发与最大并发
 class ConstantConcurrencyLimiter : public ConcurrencyLimiter {
 public:
     explicit ConstantConcurrencyLimiter(int max_concurrency);

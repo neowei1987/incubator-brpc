@@ -25,6 +25,7 @@
 namespace brpc {
 namespace policy {
 
+//自适应限流
 class AutoConcurrencyLimiter : public ConcurrencyLimiter {
 public:
     AutoConcurrencyLimiter();

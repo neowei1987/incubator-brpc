@@ -25,6 +25,7 @@
 
 namespace brpc {
 
+//并发控制，抽象接口
 class ConcurrencyLimiter {
 public:
     virtual ~ConcurrencyLimiter() {}

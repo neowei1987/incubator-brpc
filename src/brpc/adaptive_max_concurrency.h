@@ -26,6 +26,7 @@
 
 namespace brpc {
 
+//最大并发数
 class AdaptiveMaxConcurrency{
 public:
     explicit AdaptiveMaxConcurrency();
